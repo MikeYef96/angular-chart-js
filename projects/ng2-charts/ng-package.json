@@ -1,0 +1,16 @@
+{
+  "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../dist/ng2-charts",
+  "lib": {
+    "entryFile": "src/public_api.ts",
+    "umdModuleIds": {
+      "chart.js": "chart_js",
+      "lodash-es/pick": "_pick",
+      "lodash-es/merge": "_merge",
+      "lodash-es/assign": "_assign"
+    }
+  },
+  "allowedNonPeerDependencies": [
+    "lodash-es"
+  ]
+}
