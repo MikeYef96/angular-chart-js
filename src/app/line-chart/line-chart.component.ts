@@ -11,6 +11,7 @@ export class LineChartComponent {
   public lineChartData: ChartConfiguration["data"] = {
     datasets: [
       {
+        order: 4,
         data: [-44.69, -13.21, -4.47, 40.23, 80.12],
         label: "1 Previous Orders",
         backgroundColor: "rgba(40, 78, 245,1)",
@@ -22,6 +23,7 @@ export class LineChartComponent {
         fill: "origin",
       },
       {
+        order: 3,
         data: [-26.83, -4.89, 3.61, 18.59, 35.26],
         label: "2 Previous Orders",
         backgroundColor: "rgba(252, 36, 21,1)",
@@ -33,6 +35,7 @@ export class LineChartComponent {
         fill: "origin",
       },
       {
+        order: 2,
         data: [-16.52, -1, 5.17, 13.32, 20.89],
         label: "3 Previous Orders",
         backgroundColor: "rgba(231, 151, 31, 1)",
@@ -44,6 +47,7 @@ export class LineChartComponent {
         fill: "origin",
       },
       {
+        order: 1,
         data: [-1.82, 7.06, 11.28, 10.39, 16.79],
         label: "4-12 Previous Orders",
         backgroundColor: "rgba(42, 160, 7, 1)",
